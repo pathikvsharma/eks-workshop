@@ -1,8 +1,8 @@
 ---
 title: "CI/CD with CodePipeline"
-chapter: true
+chapter: false
 weight: 64
-draft: false
+draft: true
 ---
 
 # CI/CD with CodePipeline
@@ -13,4 +13,3 @@ without disruption.
 
 In this module, we will build a CI/CD pipeline using [AWS CodePipeline](https://aws.amazon.com/codepipeline/). The CI/CD pipeline will deploy a sample Kubernetes service,
 we will make a change to the GitHub repository and observe the automated delivery of this change to the cluster.
-
